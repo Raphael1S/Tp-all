@@ -1,0 +1,13 @@
+CRIADOR: Raphael S. @ BlazeHosting
+
+
+# Defina aqui a permissão que o Jogador terá que ter para conseguir executar o comando.
+permissão: "puxar.todos"
+
+
+# Defina aqui a quantidade de Jogadores que serão teletransportados por vez até que todos sejam. Essa é uma medida importante para evitar sobrecarga no servidor, em vez de todos os jogadores serem teletransportados de uma só vez, apenas dois jogadores serão teletransportados por vez.
+Limite: "2"
+
+# 16/04/2023
+# 1.0.0B
+ 
