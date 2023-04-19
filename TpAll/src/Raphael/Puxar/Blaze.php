@@ -2,12 +2,14 @@
 
 namespace Raphael\Puxar;
 
+# https://github.com/Raphael1S/Tp-all
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
+require_once("Update.php");
 
 class Blaze extends PluginBase {
 
