@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Raphael1S/Tp-all
+build-by-default: true
+branches:
+- PMMP-3
+projects:
+  TpAll:
+    path: TpAll/
+...
