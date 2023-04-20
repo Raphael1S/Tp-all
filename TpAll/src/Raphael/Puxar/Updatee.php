@@ -1,6 +1,6 @@
 <?php
 
-function atualizarPlugin($plugin, $pluginName, $pluginVersion) {
+function atualizarPlugpin($plugin, $pluginName, $pluginVersion) {
     $githubUrl = "https://api.github.com/repos/Raphael1S/Tp-all/releases/latest";
 
     $ch = curl_init();
