@@ -9,14 +9,10 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
-require_once("Updatee.php");
 
 class Blaze extends PluginBase {
 
 public function onEnable() {
-        $pluginName = $this->getDescription()->getName();
-        $pluginVersion = $this->getDescription()->getVersion();
-        atualizarPlugpin($this, $pluginName, $pluginVersion);
         $this->saveResource("config.yml");
         $config = yaml_parse_file($this->getDataFolder() . "config.yml");
     if (!isset($config["permissão"]) || !is_string($config["permissão"])) {
