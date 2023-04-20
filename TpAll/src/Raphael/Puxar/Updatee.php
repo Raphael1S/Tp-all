@@ -9,6 +9,7 @@ function atualizarPlugin($plugin, $pluginName, $pluginVersion) {
     curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0");
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: token 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'));
 
     $response = curl_exec($ch);
     curl_close($ch);
