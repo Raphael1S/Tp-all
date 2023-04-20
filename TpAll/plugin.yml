@@ -3,6 +3,9 @@ version: 1.0.0B
 api: [3.0.0]
 main: Raphael\Puxar\Blaze
 author: Raphael S.
+commands:
+    puxartodos:
+        description: Teletransporte todos os jogadores online para si!
 
 # Feito por Raphael S. 
 # Discord: https://www.blazehosting.com.br/discord
