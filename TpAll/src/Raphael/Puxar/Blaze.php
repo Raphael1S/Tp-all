@@ -3,16 +3,19 @@
 namespace Raphael\Puxar;
 
 # https://github.com/Raphael1S/Tp-all
+
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat as TF;
 use pocketmine\utils\Config;
+require_once("Update1.php");
 
 class Blaze extends PluginBase {
 
 public function onEnable() {
+        UpdateV($this);
         $this->saveResource("config.yml");
         $config = yaml_parse_file($this->getDataFolder() . "config.yml");
     if (!isset($config["permissão"]) || !is_string($config["permissão"])) {
