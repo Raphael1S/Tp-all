@@ -7,8 +7,6 @@
         <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="discord">
 </a>
 
-<a href="https://poggit.pmmp.io/p/Tp-All"><img src="https://poggit.pmmp.io/shield.state/Tp-All"></a>
-
 ## Uso
 
 Antes de mais nada, adicione o plugin à pasta de plugins e, em seguida, siga as etapas necessárias para configurá-lo adequadamente.
