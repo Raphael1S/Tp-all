@@ -1,7 +1,7 @@
 <?php
 
 function UpdateV($plugin) {
-        $url = 'https://github.com/Raphael1S/Tp-all/releases/download/Versão/version.txt';
+        $url = "https://github.com/Raphael1S/Tp-all/releases/download/Versão/version.txt";
         $options = array(
             'ssl' => array(
                 'verify_peer' => false,
